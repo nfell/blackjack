@@ -1,7 +1,7 @@
-all: KleinerPerkins
+all: Kleinerperkins
 
-KleinerPerkins: KleinerPerkins.cpp kp.hpp
-	g++ -Wall -Werror -std=c++11 KleinerPerkins.cpp -o KleinerPerkins
+Kleinerperkins: Kleinerperkins.cpp kp.hpp
+	g++ -Wall -Werror -std=c++11 Kleinerperkins.cpp -o Kleinerperkins
 
 clean:
-	rm -f KleinerPerkins
+	rm -f Kleinerperkins
