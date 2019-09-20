@@ -225,6 +225,12 @@ bool deck::check_blackjack() {
 			cout << "You have a Blackjack! You win!" << endl;
 		}
 		return true;
+	} else if (dealer_tot == 21) {
+                cout << "Dealer's hand is: " << endl;
+                dealer_hand[0]->display_card();
+                dealer_hand[1]->display_card();
+                cout << endl << "Dealer has a Blackjack! Dealer wins!" << endl;
+		return true;
 	} else {return false;}
 }	
 		
