@@ -4,7 +4,6 @@
 #include "kp.hpp"
 using namespace std;
 
-// MAKE A FUNCTION TO DELETE THE ALLOCATED SPACE
 int main(void) {
 
 while (1) {

@@ -7,7 +7,6 @@
 #include <new>
 
 using namespace std;
-// think about overriding operators like the << operator? dynamic array instead of vector? deleting dynamic array at the end? Moving dynamic object to another vector? Writting this program in c you could use realloc? writting this program in matlab you could use pictures!
 
 #ifndef CARD_H
 #define CARD_H
